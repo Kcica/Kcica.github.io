@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+  <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_urlap.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Űrlap</title>
+
+</head>
+
+<nav>
+  <a href="#tartalom">Tartalomra ugrás</a>
+</nav>
+
+<header>
+  <nav id="menu">
+      <ul>
+          <li><a href="index.html">Kezdőlap</a></li>
+          <li><a href="kepek.html">Képek</a></li>
+          <li><a href="fajok.html">Fajok</a></li>
+          <li><a class="active">Űrlap</a></li>
+      </ul>
+  </nav>
+  </header>
+  <main id="tartalom">
+    <div class="row">
+      <div class="col-md-12">
+        <form action="mailto:viktortako4@gmail.com" method="post" enctype="text/plain">
+          <h1 id="form_cim"> Melyik a kedvenc fajod? </h1>
+
+          <fieldset>
+
+            <legend><span class="number">1</span>Az adataid</legend>
+
+            <label for="nev">Név:</label>
+            <input type="text" id="nev" name="teljes_nev" maxlength="60">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email_cim" maxlength="35">
+
+          </fieldset>
+          <fieldset>
+
+            <legend><span class="number">2</span>A fajról</legend>
+
+            <label for="faj_nev">A faj neve:</label>
+            <input type="text" id="faj_nev" name="faj" maxlength="30">
+
+            <label for="faj_szarmazas">Honnan származik a faj?</label>
+            <input type="text" id="faj_szarmazas" name="szarmazas" maxlength="20">
+
+            <label for="faj_meret">Körülbelül mekkora ez a faj, kg-ban megadva?</label>
+            <input type="text" id="faj_meret" name="meret" maxlength="10">
+
+            <label for="faj_ara">Mennyibe kerül ez a faj?</label>
+            <input type="text" id="faj_ara" name="ara" maxlength="15">
+
+            <label>Volt már ilyen cicád?</label>
+            <input type="radio" id="volt" value="volt" name="volte">
+            <label for="volt" class="light">Volt!</label>
+            <br>
+            <input type="radio" id="nem_volt" value="nem_volt" name="volte">
+            <label for="nem_volt" class="light">Nem volt...</label>
+
+            <label for="leiras">Írj a fajról egy rövid leírást:</label>
+            <textarea id="leiras" name="faj_leiras" maxlength="1000"></textarea>
+
+            <input type="checkbox" id="adat" value="adat_bel" name="adat_bel"><label class="light"
+              for="adat">Beleegyezek
+              az adataim feldolgozásába.</label><br>
+            <input type="checkbox" id="level" value="hir_level" name="hir_level"><label class="light"
+              for="level">Szeretnék hírleveleket kapni.</label><br>
+
+          </fieldset>
+
+          <button type="submit" value="Elküld">Elküld</button>
+          <button type="reset" value="Töröl">Töröl</button>
+          <nav><a href="#menu">Vissza a menüre</a></nav>
+
+        </form>
+      </div>
+    </div>
+
+    <aside>Egy kutatás kimutatta, hogy a macskákat kedvelő emberek 12%-al boldogabbak.</aside>
+    <nav><a href="#menu">Vissza a menüre</a></nav>
+  </main>
+
+  <footer>
+    <p>Készítette: Tako Viktor</p>
+    <nav><a href="#menu">Vissza a menüre</a></nav>
+</footer>
+</body>
+
+</html>

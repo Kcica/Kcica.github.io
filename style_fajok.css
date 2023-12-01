@@ -1,0 +1,94 @@
+body {
+  background-color: rgba(0, 0, 0, 0);
+  color: #384047;
+}
+
+h1#cica {
+  text-align: left;
+  color: azure;
+  font-size: 200%;
+  margin: 25px;
+  padding: 20px;
+
+}
+
+#cica_faj {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+#cica_faj td,
+#cica_faj th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#cica_faj tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#cica_faj tr:hover {
+  background-color: #ddd;
+}
+
+#cica_faj td{
+  font-size: 1.2em;
+}
+#cica_faj th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1b0961;
+  color: white;
+  font-size: 1.4em;
+}
+
+#cica_faj caption {
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.carousel-inner>.carousel-item>img,
+.carousel-inner>.carousel-item>a>img {
+  width: 80%;
+  margin: auto;
+}
+h1#cica{
+  font-size: 4em;
+}
+
+div#kepek {
+  align-items: center;
+  text-align: left;
+}
+
+#kepek p {
+  background-color: white;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+div#kepek article figure figcaption {
+  color: white;
+  background-color: #384047;
+  font-size: 2em;
+}
+
+p#link a:link, p#link a:visited {
+  color: blueviolet;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:link p#link:active, p#link:visited:active {
+  color: violet;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}

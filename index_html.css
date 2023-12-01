@@ -1,0 +1,41 @@
+body{
+    background-color: transparent;
+}
+h1#cim{
+    padding-top: 10%;
+    background-color: transparent;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-bottom: auto;
+    font-size: 500%;
+}
+
+#udvozlet{
+    color: rgb(31, 30, 30);
+    text-align: left;
+    padding: 10%;
+    font-weight: bold;
+    background-color: rgba(250, 235, 215, 0.8);
+    
+    
+}
+video{
+    padding-top: 2%;
+}
+
+#video p{
+    text-align:start;
+    color:rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 1.4em;
+}
+
+a#link:link, a#link:visited {
+    color: blueviolet;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  a:link#link:active, a#link:visited:active {
+    color: violet;
+  }

@@ -1,0 +1,98 @@
+html {   
+  font-family: sans-serif, Helvetica, Arial; 
+  background-image: url("af1da97a52cc65c6596001cbaa1485d2.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  
+}
+
+body {
+  font-size: 1em;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  margin-right: 135px;
+  margin-left: 80px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #460cb1;
+  color: white;
+}
+
+.active {
+  background-color: #1b0961;
+}
+
+footer p{
+  color: white;
+  font-size: 1.3em;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.445);
+}
+
+a#link:link, a#link:visited {
+  color: blueviolet;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:link#link:active, a#link:visited:active {
+  color: violet;
+}
+
+@media print{
+  body{
+      font-family:'Times New Roman', Times, serif;
+  }
+  nav{display:none}
+  
+  a:after{content: " (" attr(href) ")"}
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr; 
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+a[href="#tartalom"], a[href="#menu"]{
+    position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
